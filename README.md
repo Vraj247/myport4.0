@@ -1,3 +1,1 @@
-<<<<<<< HEAD
-# myport4.0
-
+Hi This is my portfolio website
