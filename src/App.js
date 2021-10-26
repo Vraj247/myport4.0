@@ -32,10 +32,10 @@ function App() {
               <div className="nav-right">
                 <a href ="https://dribbble.com/Vraj247" target="_blank" rel="noopener noreferrer"><img src={dribbble} alt="dribbble"></img></a>
                 <a href ="https://www.linkedin.com/in/vraj247/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="Linkedin"></img></a>
-                <a href ="https://dribbble.com/Vraj247" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter"></img></a>
-                <a href ="https://dribbble.com/Vraj247" target="_blank" rel="noopener noreferrer"><img src={github} alt="github"></img></a>
-                <a href ="https://dribbble.com/Vraj247" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram"></img></a>
-                <a href ="https://dribbble.com/Vraj247" target="_blank" rel="noopener noreferrer"><img src={behance} alt="behance"></img></a>
+                <a href ="https://twitter.com/Vraj247" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter"></img></a>
+                <a href ="https://github.com/vraj247/" target="_blank" rel="noopener noreferrer"><img src={github} alt="github"></img></a>
+                <a href ="https://www.instagram.com/vraj247/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram"></img></a>
+                <a href ="https://www.behance.net/vraj247" target="_blank" rel="noopener noreferrer"><img src={behance} alt="behance"></img></a>
               </div>
 
         </div>
