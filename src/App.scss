@@ -1,21 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap');
 
 //Neutral Color
-$white: #FEF7F1;
+$white: #F7F7FF;
 $black: #020404;
 
 //Accent Color
 $accent:#FF4F00;
 
 //Grey Color
-$dark-grey: #443B39;
+$dark-grey: #3C3C3B;
 $mid-grey: #8A8483;
 $light-grey: #D0CECD;
 
 //Border Color
 $border: #424245;
 
+//paytm brand color
+$paytm: #00BAF2;
 
+//Blues
+$cobaltblue: #1446A0;
+$dodgerblue: #1789FC;
+
+
+
+$mustard: #F5D547;
+$laserlemon: #F0F757;
 
 body {
     margin: 0;
@@ -100,6 +110,17 @@ h1 {
                 }
 
                 h2 {
+                    font-weight: 800;
+                    line-height: 94px;
+                    font-size: 120px;
+                    text-align: left;
+                    text-transform: uppercase;
+                    color: $accent;
+                    margin: 0 0;
+
+                }
+
+                h3 {
                     width: 75%;
                     font-weight: 400;
                     line-height: 32px;
@@ -108,15 +129,7 @@ h1 {
                     color: $mid-grey;
                 }
 
-                a {
-                    font-weight: 800;
-                    line-height: 94px;
-                    font-size: 120px;
-                    text-align: left;
-                    text-transform: uppercase;
-                    color: $accent;
-                    margin: 0 0;
-                }
+                
     } 
 
     
@@ -131,7 +144,7 @@ h1 {
     
 
 
-    .hero-project{
+    .work{
         display: flex;
         margin-top: 0px;
         margin-bottom: 120px;
@@ -146,7 +159,7 @@ h1 {
 
 
 
-    .hero-main{
+    .col-2{
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -159,17 +172,25 @@ h1 {
         order: 2;
         flex-grow: 0;
 
-        .inside {
+        .col-2-inside {
             display: flex;
+            margin: 0 0;
+            padding:0 0;
+            padding-top: 40px;
+            height: 540px;
+            border-radius: 24px;
+            background: #171717;
             flex-direction: column;
+            align-items: center;
+            overflow: hidden;
             width: 48%;
             
         }
 
         h1 {
-            margin: 32px 0 8px 0;
+            margin: 8px 0 8px 0;
             padding: 0;
-            font-size: 24px;
+            font-size: 20px;
             text-decoration: none;
             line-height: auto;
             font-weight: 600;
@@ -180,22 +201,25 @@ h1 {
         p{
                 margin: 0 0;
                 padding: 0;
-                font-size: 16px;
-                text-decoration: none;
+                font-size: 14px;
                 line-height: 24px;
-                font-weight: 400;
-                color: $mid-grey;
+                text-align: center;
+                letter-spacing: 1px;
+                font-weight: 800;
+                text-transform: uppercase;
+                width: 70%;
+                color: $dark-grey;
         }
 
 
         a{
             margin-top: 16px;
             padding: 0 0;
-            font-size: 14px;
+            font-size: 16px;
             text-decoration: underline;
             line-height: 24px;
-            font-weight: 600;
-            color: $light-grey;
+            font-weight: 800;
+            color: $dark-grey;
             transition-duration: 0.5s;
             transition-timing-function: cubic-bezier(.94,.4,.13,.94);
 
@@ -203,10 +227,113 @@ h1 {
             &:hover {
             color: $accent;
             }
+         }
     }
+    
+    
+    .col-1{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        justify-content: space-between;
+        width: 1024px;
+        height: 180px;
+        flex: none;
+        background: $dodgerblue;  /* fallback for old browsers */
+        overflow: hidden;
+    
 
-       
-    }   
+        border-radius: 16px;
+        order: 1;
+        flex-grow: 0;
+
+        .col-1-inside {
+            display: flex;
+            margin: 0 0;
+            padding:0 0;
+            padding-top: 24px;
+            padding-left: 40px;
+            width: 50%;
+            height: auto;
+            flex-direction: column;
+            align-items: left;
+            overflow: hidden;
+            
+        }
+
+        h1 {
+            margin: 8px 0 8px 0;
+            padding: 0;
+            font-size: 20px;
+            text-decoration: none;
+            line-height: auto;
+            font-weight: 600;
+            color: $white;
+        }
+        
+
+        p{
+                margin: 0 0;
+                padding: 0;
+                font-size: 14px;
+                line-height: 24px;
+                text-align: left;
+                letter-spacing: 0.5px;
+                font-weight: 400;
+                text-transform: none;
+                color: $white;
+        }
+
+
+        a{
+            margin-top: 16px;
+            padding: 0 0;
+            font-size: 14px;
+            text-decoration: none;
+            line-height: 16px;
+            font-weight: 600;
+            color: $white;
+            transition-duration: 0.5s;
+            transition: all 0.25s cubic-bezier(0.71, 0.03, 0.56, 0.85);
+            transform: scaleX(0);
+            height: 2px;
+            bottom: 0;
+            left: 0;
+
+
+            &:hover {
+            text-decoration: underline;
+            color: $mustard;
+            transform-origin: bottom right;
+            transition: all 0.25s cubic-bezier(0.71, 0.03, 0.56, 0.85);
+            }
+         }
+
+        .col-1-img {
+            display: flex;
+            margin: 0 0;
+            padding:0 0;
+            padding-top: 30px;
+            padding-right: 40px;
+            width: auto;
+            height: auto;
+            flex-direction: column;
+            align-items: right;
+            transition: all 0.25s cubic-bezier(0.71, 0.03, 0.56, 0.85);
+
+            &:hover {
+                padding-top: 16px;
+                animation-duration: 600ms;
+                transition: all 0.35s cubic-bezier(0.71, 0.03, 0.56, 0.85);
+                }
+
+        }
+
+        
+
+
+    }
 
     .hero-title{
         display: flex;
@@ -321,7 +448,7 @@ h1 {
             order:1;
             position: relative;
             background: #F5F9FE;
-            width: 670px;
+            width: auto;
             height: 240px;
             transition-duration: 0.5s;
             transition-timing-function: cubic-bezier(.94,.4,.13,.94);

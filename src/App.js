@@ -6,13 +6,11 @@ import twitter from './images/twitter.svg'
 import github from './images/github.svg'
 import instagram from './images/instagram.svg'
 import behance from './images/behance.svg'
-import One from './images/1.png'
+import One from './images/travel.gif'
 import Two from './images/2.png'
-import postpaid from './images/postpaid-cover.png'
-import prj1 from './images/travel.png'
-import prj2 from './images/postpaid.png'
-import prj3 from './images/trains.png'
-import prj4 from './images/credit.png'
+import featured from './images/thehardcopy.png'
+import k from './images/key.svg'
+
 
 
 
@@ -41,46 +39,65 @@ function App() {
         </div>
         <div className="hero">
                 <h1>Digital</h1> 
-                <a>Experience</a> 
+                <h2>Experience</h2> 
                 <h1>Designer</h1>
                 <div className="subtext">
-                <h2> I am a Product designer over 5 years of experience. I am currently as User Expereince Design Manager at HDFC Bank ↗. Previously at Paytm, Grappus.
-                </h2>
+                <h3> I am a Product designer with over 5+ years of experience. I am currently as User Expereince Design Manager at HDFC Bank. Previously at Paytm.
+                </h3>
                 </div>
         </div>
 
 
      
 
-        <div className="hero-project">
-            <div className="hero-main">
-                  <div className="inside">
-                    <img src={One} alt="Paytm Official Design System"></img>
-                    <h1 href="">Paytm Travel</h1>
-                    <p>Got a chance to work with some of the most interesting projects while I was working with Paytm's Travel Team. Here you would be able to see my work within travel ecosystem of Paytm.</p>
-                    <a href="https://thehardcopy.co/under-paytms-design-hood/" target="_blank"></a>
-                  </div>
+        <div className="work">
+            <div className="col-2">
 
-                  <div className="inside">
-                    <img src={Two} alt="Paytm Postpaid"></img>
-                    <h1 >Paytm Postpaid 4.0</h1>
-                    <p>Paytm's own Buy now Pay Later product. I've redesigned the product from scratch </p>
-                    <a href="https://paytm.com/offer/paytm-postpaid" target="_blank"></a>
-                  </div>
-                </div>
+                    {/* <div className="inside">
+                        <img src={Two} alt="Paytm Postpaid"></img>
+                        <h1 >Paytm Postpaid - The Buy now Pay Later</h1>
+                        <p>Led the product design for the buy now pay later product. Was able to able to aquire 4X active users within 8 months of period.</p>
+                        <a href="https://paytm.com/offer/paytm-postpaid" target="_blank">Website Link</a>
+                    </div> */}
+
+                    <div className="col-2-inside">
+                      <p>Paytm Travel</p>
+                      <h1>Homepage Redesign</h1>
+                      <img src={One} alt="Paytm Official Design System"></img>
+                      <a href="https://thehardcopy.co/under-paytms-design-hood/" target="_blank"></a>
+                    </div>
+
+                    <div className="col-2-inside">
+                      <p>Paytm postpaid</p>
+                      <h1>Product Redesign</h1>
+                      <img src={Two} alt="Paytm Official Design System"></img>
+                      <a href="https://thehardcopy.co/under-paytms-design-hood/" target="_blank"></a>
+                    </div>
+            </div>
 
             
             <div className="hero-title">
                   <h1>Work</h1>
-                  <h2>View more</h2>
             </div>
+
+            <div className="col-1">
+                  <div className="col-1-inside">
+                    <h1>Paytm Official Design System</h1>
+                    <p>I've got to chance to create and introduce design systems for Paytm. I won't be able to share the files here due to NDA.</p>
+                    <a>Read here</a>
+                  </div>
+                  <div className ="col-1-img">
+                    <img src={featured} alt="my profile pic"></img> 
+                  </div>
+            </div>
+
         </div>
 
 
 
         {/* <div className="th-prj">
             <div className="in-prj">
-            <img src={prj1} alt="Paytm Travel Homepage Redesigns"></img>
+            <img src={One} alt="Paytm Travel Homepage Redesigns"></img>
             <div className="in-prj-text">
               <h1>Paytm Travel</h1>
               <h2>Product Design</h2>
@@ -88,21 +105,21 @@ function App() {
             </div>
 
             <div className="in-prj">
-            <img src={prj2} alt="Paytm Postpaid UX Redesign"></img>
+            <img src={One} alt="Paytm Postpaid UX Redesign"></img>
             <div className="in-prj-text">
               <h1>Paytm Postpaid</h1>
             </div>
             </div>
 
             <div className="in-prj">
-            <img src={prj3} alt="Paytm Trains New homepage redesign"></img>
+            <img src={Two} alt="Paytm Trains New homepage redesign"></img>
             <div className="in-prj-text">
               <h1>Paytm Trains</h1>
             </div>
             </div>
 
             <div className="in-prj">
-            <img src={prj4} alt="Paytm Travel Homepage Redesigns"></img>
+            <img src={Two} alt="Paytm Travel Homepage Redesigns"></img>
             <div className="in-prj-text">
               <h1>Paytm Credit Score</h1>
             </div>
@@ -111,8 +128,8 @@ function App() {
         </div> */}
 
         <div className="footer">
-          <h1>Designed and Developed ❤ Vikas Raj Yadav</h1>
-          <h1>Last updated: 19th Oct 2021</h1>
+          <h1>Tailor: Vikas Raj Yadav</h1>
+          <h1>Last updated: 9th Nov 2021</h1>
         </div>
 
       </div> 
