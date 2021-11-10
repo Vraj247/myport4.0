@@ -9,7 +9,6 @@ import behance from './images/behance.svg'
 import One from './images/travel.gif'
 import Two from './images/2.png'
 import featured from './images/thehardcopy.png'
-import k from './images/key.svg'
 
 
 
@@ -64,14 +63,12 @@ function App() {
                       <p>Paytm Travel</p>
                       <h1>Homepage Redesign</h1>
                       <img src={One} alt="Paytm Official Design System"></img>
-                      <a href="https://thehardcopy.co/under-paytms-design-hood/" target="_blank"></a>
                     </div>
 
                     <div className="col-2-inside">
                       <p>Paytm postpaid</p>
                       <h1>Product Redesign</h1>
                       <img src={Two} alt="Paytm Official Design System"></img>
-                      <a href="https://thehardcopy.co/under-paytms-design-hood/" target="_blank"></a>
                     </div>
             </div>
 
@@ -84,7 +81,7 @@ function App() {
                   <div className="col-1-inside">
                     <h1>Paytm Official Design System</h1>
                     <p>I've got to chance to create and introduce design systems for Paytm. I won't be able to share the files here due to NDA.</p>
-                    <a>Read here</a>
+                    <a href="https://thehardcopy.co/under-paytms-design-hood/" target="_blank">Read here</a>
                   </div>
                   <div className ="col-1-img">
                     <img src={featured} alt="my profile pic"></img> 
