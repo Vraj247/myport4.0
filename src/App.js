@@ -18,7 +18,7 @@ import featured from './images/thehardcopy.png'
 function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="container"><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <div className="header">
               <div className="nav-left">
                     <img src={profile} alt="my profile pic"></img>
