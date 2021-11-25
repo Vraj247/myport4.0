@@ -213,10 +213,6 @@ body {
             font-weight: 800;
             color: $dark-grey;
             transition: all 0.25s cubic-bezier(0.71, 0.03, 0.56, 0.85);
-
-            &:hover {
-            color: $accent;
-            }
          }
     }
     
@@ -313,12 +309,6 @@ body {
             flex-direction: column;
             align-items: center;
             transition: all 0.25s cubic-bezier(0.71, 0.03, 0.56, 0.85);
-
-            &:hover {
-                padding-top: 16px;
-                animation-duration: 600ms;
-                transition: all 0.35s cubic-bezier(0.71, 0.03, 0.56, 0.85);
-                }
 
         }
 
@@ -776,11 +766,6 @@ and (min-width : 1224px) {
         order: 1;
         transition: border-radius cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 
-        &:hover{
-            border-radius: 32px;
-        }
-
-        
 
         .col-1-inside {
             display: flex;
@@ -856,17 +841,7 @@ and (min-width : 1224px) {
             align-items: right;
             transition: all 0.25s cubic-bezier(0.71, 0.03, 0.56, 0.85);
 
-            &:hover {
-                padding-top: 16px;
-                animation-duration: 600ms;
-                transition: all 0.35s cubic-bezier(0.71, 0.03, 0.56, 0.85);
-                }
-
         }
-
-        
-
-
     }
 
     .hero-title{
@@ -961,11 +936,6 @@ and (min-width : 1224px) {
             transition: 0.35ms;
             transition-timing-function: ease-in-out;
             animation-delay: 0.25ms;
-
-
-            &:hover {
-            color: $accent;
-            }
         }
     }
 
