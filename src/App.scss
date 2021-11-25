@@ -21,9 +21,6 @@ $paytm: #00BAF2;
 //Blues
 $cobaltblue: #1446A0;
 $dodgerblue: #1789FC;
-
-
-
 $mustard: #F5D547;
 $laserlemon: #F0F757;
 
@@ -241,7 +238,7 @@ body {
         transition: border-radius cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 
         &:hover{
-            border-radius: 32px;
+            border-radius: 12px;
         }
 
         
