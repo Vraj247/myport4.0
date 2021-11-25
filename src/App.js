@@ -41,7 +41,7 @@ function App() {
                 <h2>Experience</h2> 
                 <h1>Designer</h1>
                 <div className="subtext">
-                <h3> I am a Product designer with over 5+ years of experience. I am currently as User Expereince Design Manager at HDFC Bank. Previously at Paytm.
+                <h3> I am a Product designer with over 5+ years of experience. I am currently as User Experience Design Manager at HDFC Bank.
                 </h3>
                 </div>
         </div>
